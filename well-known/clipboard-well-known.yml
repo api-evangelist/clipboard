@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+host: https://www.clipboardworks.com
+documents:
+- path: /.well-known/security.txt          # RFC 9116
+  status: 200
+  file: clipboard-security.txt
+- path: /.well-known/openid-configuration   # OIDC discovery
+  status: 404
+- path: /.well-known/oauth-authorization-server  # RFC 8414
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  Only the RFC 9116 security.txt is published (Contact: security@clipboardhealth.com).
+  clipboard.health/.well-known/security.txt returns the SPA HTML shell (soft-404), so it
+  is not a real well-known document. Clipboard Health publishes no OIDC/OAuth discovery,
+  api-catalog, or ai-plugin document (no public product API).

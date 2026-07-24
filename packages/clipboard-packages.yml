@@ -1,0 +1,81 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/org/clipboard-health
+notes: >-
+  Clipboard Health publishes no public product API and therefore no API client SDKs.
+  These are genuine FIRST-PARTY open-source engineering libraries and developer tooling
+  published under the @clipboard-health npm scope (repos in github.com/ClipboardHealth,
+  primarily the core-utils monorepo). They are internal platform utilities and agent/QA
+  tooling, NOT client libraries for a consumer-facing API — so no `SDKs` pointer is
+  emitted (there is no public API to be a client of).
+packages:
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/util-ts"
+  url: https://www.npmjs.com/package/@clipboard-health/util-ts
+  install: npm install @clipboard-health/util-ts
+  official: true
+  description: TypeScript utilities.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/json-api"
+  url: https://www.npmjs.com/package/@clipboard-health/json-api
+  install: npm install @clipboard-health/json-api
+  official: true
+  description: TypeScript-friendly utilities for adhering to the JSON:API specification.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/json-api-nestjs"
+  url: https://www.npmjs.com/package/@clipboard-health/json-api-nestjs
+  install: npm install @clipboard-health/json-api-nestjs
+  official: true
+  description: TypeScript-friendly utilities for adhering to the JSON:API specification with NestJS.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/contract-core"
+  url: https://www.npmjs.com/package/@clipboard-health/contract-core
+  install: npm install @clipboard-health/contract-core
+  official: true
+  description: Shared Zod schemas for Clipboard's contracts.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/rules-engine"
+  url: https://www.npmjs.com/package/@clipboard-health/rules-engine
+  install: npm install @clipboard-health/rules-engine
+  official: true
+  description: A pure functional rules engine to keep logic-dense code simple and explainable.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/config"
+  url: https://www.npmjs.com/package/@clipboard-health/config
+  install: npm install @clipboard-health/config
+  official: true
+  description: Type-safe static configuration management with Zod validation.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/notifications"
+  url: https://www.npmjs.com/package/@clipboard-health/notifications
+  install: npm install @clipboard-health/notifications
+  official: true
+  description: Send notifications through third-party providers.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/phone-number"
+  url: https://www.npmjs.com/package/@clipboard-health/phone-number
+  install: npm install @clipboard-health/phone-number
+  official: true
+  description: Phone number utility functions.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/mongo-jobs"
+  url: https://www.npmjs.com/package/@clipboard-health/mongo-jobs
+  install: npm install @clipboard-health/mongo-jobs
+  official: true
+  description: MongoDB-powered background jobs.
+- language: typescript
+  registry: npm
+  name: "@clipboard-health/groundcrew"
+  url: https://www.npmjs.com/package/@clipboard-health/groundcrew
+  install: npm install @clipboard-health/groundcrew
+  official: true
+  description: Linear-driven orchestrator that launches AI coding agents in git worktrees.

@@ -1,8 +1,21 @@
 aid: clipboard
-name: Clipboard
-description: Clipboard is a company surfaced as a portfolio company of a16z, y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Clipboard Health
+description: >-
+  Clipboard Health (which also operates as "Clipboard" / Clipboard Works) is a
+  Y Combinator (W17) and Andreessen Horowitz backed healthcare workforce
+  marketplace that connects healthcare facilities with qualified, credentialed
+  professionals to fill open shifts. Workplaces post open shifts and Clipboard
+  matches them with local nurses, CNAs, caregivers, and allied professionals,
+  handling scheduling, replacement coverage when a worker cancels, credential
+  verification, and payments. The platform serves long-term care, home health
+  and hospice, hospitals, and dental practices, with more than 6,500 workplaces
+  and roughly one million workers across the United States. Clipboard Health is
+  a marketplace/product company rather than an API-first developer platform; it
+  publishes no public product API, OpenAPI, or developer portal, but it does
+  operate an active open-source engineering presence (the ClipboardHealth
+  GitHub organization and the @clipboard-health npm scope) and a published
+  security contact. This profile was surfaced as an a16z / Y Combinator
+  portfolio lead and enriched from public sources.
 url: https://raw.githubusercontent.com/api-evangelist/clipboard/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +24,78 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: >-
+  Do not conflate with "Clipboard" by Compass (clipboard.app / api-docs.clipboard.app),
+  a school extracurricular-management product and a different company. This repo is
+  Clipboard Health, the a16z/YC healthcare staffing marketplace (clipboardworks.com /
+  clipboard.health / github.com/ClipboardHealth).
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Staffing
+- Marketplace
+- Workforce
+- Nursing
+- Gig Economy
+- Scheduling
+image: https://www.clipboardworks.com/og-link-preview.webp
 apis: []
+common:
+- type: LLMsTxt
+  url: llms/clipboard-llms.txt
+- type: Packages
+  url: packages/clipboard-packages.yml
+- type: Security
+  url: https://www.clipboardworks.com/.well-known/security.txt
+- type: SecurityTxt
+  url: well-known/clipboard-security.txt
+- type: WellKnown
+  url: well-known/clipboard-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/clipboard-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/clipboard-domain-security.yml
+- type: Website
+  url: https://www.clipboardworks.com/
+- type: About
+  url: https://www.clipboardworks.com/about
+- type: Pricing
+  url: https://www.clipboardworks.com/pricing
+- type: Blog
+  url: https://www.clipboardworks.com/resources/blog
+- type: Support
+  url: https://www.clipboardworks.com/support
+- type: TermsOfService
+  url: https://www.clipboardworks.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.clipboardworks.com/privacy-policy
+- type: SignUp
+  url: https://www.clipboardworks.com/for-workers
+- type: Login
+  url: https://clipboard.health/enter
+- type: GitHubOrganization
+  url: https://github.com/ClipboardHealth
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
